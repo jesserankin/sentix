@@ -61,7 +61,7 @@ defmodule Sentix.Mixfile do
     [
       # Production dependencies
       { :cachex,  "~> 2.0" },
-      { :erlexec,  "~> 1.9" },
+      { :erlexec,  "~> 2.0.6" },
       # Development dependencies
       { :credo,       "~> 0.4",  optional: true, only: [ :dev, :test ] },
       { :ex_doc,      "~> 0.12", optional: true, only: [ :dev, :test ] },
